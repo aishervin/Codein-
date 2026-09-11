@@ -1,0 +1,6 @@
+{
+  "name": "SHΞN™ᴄᴏᴅᴇʀ",
+  "description": "All-in-One Android AI Coding Studio",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
