@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SHΞN™ᴄᴏᴅᴇʀ</string>
+    <string name="bds_target_url">https://chat.deepseek.com/</string>
+    <string name="bds_asset_authority">shen-asset.local</string>
 </resources>

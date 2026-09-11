@@ -104,8 +104,8 @@ fun MainStudioApp(viewModel: StudioViewModel) {
                 NavigationBarItem(
                     selected = selectedTab == 2,
                     onClick = { viewModel.setTab(2) },
-                    icon = { Icon(Icons.Default.CloudUpload, contentDescription = "Deploy Hub", modifier = Modifier.size(20.dp)) },
-                    label = { Text("Deploy", fontSize = 10.sp, fontFamily = FontFamily.Monospace) },
+                    icon = { Icon(Icons.Default.Language, contentDescription = "Web Engine", modifier = Modifier.size(20.dp)) },
+                    label = { Text("Web Agent", fontSize = 10.sp, fontFamily = FontFamily.Monospace) },
                     colors = NavigationBarItemDefaults.colors(
                         selectedIconColor = Color(0xFFFF6B00),
                         selectedTextColor = Color(0xFFFF6B00),
@@ -154,7 +154,7 @@ fun MainStudioApp(viewModel: StudioViewModel) {
             when (selectedTab) {
                 0 -> AiStudioScreen(viewModel = viewModel)
                 1 -> EditorScreen(viewModel = viewModel)
-                2 -> DeployHubScreen(viewModel = viewModel)
+                2 -> WebEngineScreen(viewModel = viewModel)
                 3 -> TerminalScreen(viewModel = viewModel)
                 4 -> ConfigScreen(viewModel = viewModel)
             }

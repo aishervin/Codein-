@@ -26,6 +26,9 @@ jobs:
       run: |
         echo $ENCODED_STRING | base64 -d > release.keystore
 
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
     - name: Build Release APKs
       env:
         KEYSTORE_PATH: ../release.keystore
